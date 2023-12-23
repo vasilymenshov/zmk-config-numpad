@@ -11,14 +11,14 @@
                 &kp KP_N7   &kp KP_N8   &kp KP_N9
                 &kp KP_N4   &kp KP_N5   &kp KP_N6
                 &kp KP_N1   &kp KP_N2   &kp KP_N3
-                &kp KP_N0   &lt 1 OUT_TOG   &kp ENTER
+                &kp KP_N0   &mo 1   &kp ENTER
             >;
         };
 
         bt_layer {
             bindings = <
                 &trans    &trans    &trans 
-                &trans    &trans    &trans 
+                &out OUT_USB    &out OUT_BLE    &out OUT_TOG 
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2
                 &bootloader   &trans    &bt BT_CLR
             >;
