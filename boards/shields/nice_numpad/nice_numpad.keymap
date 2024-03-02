@@ -12,11 +12,11 @@
                 &kp KP_N7   &kp KP_N8   &kp KP_N9
                 &kp KP_N4   &kp KP_N5   &kp KP_N6
                 &kp KP_N1   &kp KP_N2   &kp KP_N3
-                &out OUT_BLE   &mo 1   &kp ENTER
+                &out OUT_BLE   &mo BLE   &kp ENTER
             >;
         };
 
-        bt_layer {
+        ble_layer {
             bindings = <
                 &trans    &trans    &trans 
                 &out OUT_USB    &out OUT_BLE    &out OUT_TOG 
