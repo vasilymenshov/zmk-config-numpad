@@ -1,0 +1,8 @@
+file_format: "1"
+id: nice_numpad
+name: nice_numpad
+type: shield
+url: https://github.com/vasilymenshov/zmk-config-numpad
+requires: [nice_nano_v2]
+features:
+  - keys

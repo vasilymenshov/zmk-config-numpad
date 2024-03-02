@@ -1,0 +1,6 @@
+if SHIELD_NICE_NUMPAD
+
+config ZMK_KEYBOARD_NAME
+    default "Nice Numpad"
+
+endif
